@@ -1,0 +1,126 @@
+# ============================================================
+# Python / Backend (ai_navigation_system)
+# ============================================================
+
+# Virtual environment
+yolovenv/
+venv/
+env/
+.env
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+.pytest_cache/
+htmlcov/
+.coverage
+.tox/
+
+# Logs
+*.log
+logs/
+
+# ML Model files (large files - use Git LFS or exclude)
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.h5
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# ============================================================
+# Flutter / Dart (ai_navigation_app)
+# ============================================================
+
+# Flutter build outputs
+ai_navigation_app/.dart_tool/
+ai_navigation_app/.flutter-plugins
+ai_navigation_app/.flutter-plugins-dependencies
+ai_navigation_app/.packages
+ai_navigation_app/build/
+ai_navigation_app/.pub-cache/
+ai_navigation_app/.pub/
+
+# Android
+ai_navigation_app/android/.gradle/
+ai_navigation_app/android/local.properties
+ai_navigation_app/android/key.properties
+ai_navigation_app/android/app/debug.keystore
+ai_navigation_app/android/app/release/
+ai_navigation_app/android/app/*.jks
+
+# iOS
+ai_navigation_app/ios/Pods/
+ai_navigation_app/ios/.symlinks/
+ai_navigation_app/ios/Flutter/flutter_export_environment.sh
+ai_navigation_app/ios/Flutter/Generated.xcconfig
+
+# Dart
+*.dart_tool/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+
+# ============================================================
+# IDEs & Editors
+# ============================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (Android Studio, IntelliJ, PyCharm)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ============================================================
+# OS Files
+# ============================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================================
+# Misc
+# ============================================================
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*.swo
